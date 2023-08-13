@@ -3467,11 +3467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DOTNET\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\Source\\Repos\\Book_MVC\\BulkyWeb\\BulkyWeb.csproj",
       "projectName": "BulkyWeb",
-      "projectPath": "D:\\DOTNET\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj",
+      "projectPath": "C:\\Users\\dell\\Source\\Repos\\Book_MVC\\BulkyWeb\\BulkyWeb.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "D:\\DOTNET\\BulkyWeb\\BulkyWeb\\obj\\",
+      "outputPath": "C:\\Users\\dell\\Source\\Repos\\Book_MVC\\BulkyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
