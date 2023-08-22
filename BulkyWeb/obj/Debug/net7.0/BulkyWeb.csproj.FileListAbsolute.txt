@@ -178,3 +178,9 @@ D:\DOTNET\Book_MVC\BulkyWeb\obj\Debug\net7.0\refint\BulkyWeb.dll
 D:\DOTNET\Book_MVC\BulkyWeb\obj\Debug\net7.0\BulkyWeb.pdb
 D:\DOTNET\Book_MVC\BulkyWeb\obj\Debug\net7.0\BulkyWeb.genruntimeconfig.cache
 D:\DOTNET\Book_MVC\BulkyWeb\obj\Debug\net7.0\ref\BulkyWeb.dll
+D:\DOTNET\Book_MVC\BulkyWeb\bin\Debug\net7.0\Bulky.DataAccess.dll
+D:\DOTNET\Book_MVC\BulkyWeb\bin\Debug\net7.0\Bulky.Models.dll
+D:\DOTNET\Book_MVC\BulkyWeb\bin\Debug\net7.0\Bulky.Utility.dll
+D:\DOTNET\Book_MVC\BulkyWeb\bin\Debug\net7.0\Bulky.DataAccess.pdb
+D:\DOTNET\Book_MVC\BulkyWeb\bin\Debug\net7.0\Bulky.Models.pdb
+D:\DOTNET\Book_MVC\BulkyWeb\bin\Debug\net7.0\Bulky.Utility.pdb
