@@ -28,7 +28,7 @@ namespace Bulky.DataAccess.Repository
         public IEnumerable<T> GetAll()
         {
             IQueryable<T> query = dbSet;
-            return query.ToList();
+            return query.AsNoTracking().ToList();
         }
 
         public void Remove(T entity)
