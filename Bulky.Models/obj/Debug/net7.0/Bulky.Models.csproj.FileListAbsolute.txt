@@ -9,3 +9,4 @@ D:\DOTNET\Book_MVC\Bulky.Models\obj\Debug\net7.0\Bulky.Models.dll
 D:\DOTNET\Book_MVC\Bulky.Models\obj\Debug\net7.0\refint\Bulky.Models.dll
 D:\DOTNET\Book_MVC\Bulky.Models\obj\Debug\net7.0\Bulky.Models.pdb
 D:\DOTNET\Book_MVC\Bulky.Models\obj\Debug\net7.0\ref\Bulky.Models.dll
+D:\DOTNET\Book_MVC\Bulky.Models\obj\Debug\net7.0\Bulky.Models.csproj.AssemblyReference.cache

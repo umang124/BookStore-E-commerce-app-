@@ -85,6 +85,9 @@ namespace Bulky.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("ListPrice")
                         .HasColumnType("float");
 
@@ -115,6 +118,7 @@ namespace Bulky.DataAccess.Migrations
                             CategoryId = 1,
                             Description = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
                             ISBN = "ADJ23JK3J",
+                            ImageUrl = "",
                             ListPrice = 99.0,
                             Price = 90.0,
                             Price100 = 80.0,
@@ -128,6 +132,7 @@ namespace Bulky.DataAccess.Migrations
                             CategoryId = 1,
                             Description = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
                             ISBN = "LPOJE34F",
+                            ImageUrl = "",
                             ListPrice = 40.0,
                             Price = 30.0,
                             Price100 = 20.0,
@@ -141,6 +146,7 @@ namespace Bulky.DataAccess.Migrations
                             CategoryId = 2,
                             Description = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
                             ISBN = "NVWJVW45DED",
+                            ImageUrl = "",
                             ListPrice = 55.0,
                             Price = 50.0,
                             Price100 = 35.0,
@@ -154,6 +160,7 @@ namespace Bulky.DataAccess.Migrations
                             CategoryId = 3,
                             Description = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
                             ISBN = "KFOWEKFJNW32",
+                            ImageUrl = "",
                             ListPrice = 70.0,
                             Price = 65.0,
                             Price100 = 55.0,
@@ -167,6 +174,7 @@ namespace Bulky.DataAccess.Migrations
                             CategoryId = 2,
                             Description = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
                             ISBN = "NVKWJVKJF45",
+                            ImageUrl = "",
                             ListPrice = 30.0,
                             Price = 27.0,
                             Price100 = 20.0,
@@ -180,6 +188,7 @@ namespace Bulky.DataAccess.Migrations
                             CategoryId = 2,
                             Description = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
                             ISBN = "NFWKEFNW231",
+                            ImageUrl = "",
                             ListPrice = 25.0,
                             Price = 23.0,
                             Price100 = 20.0,
