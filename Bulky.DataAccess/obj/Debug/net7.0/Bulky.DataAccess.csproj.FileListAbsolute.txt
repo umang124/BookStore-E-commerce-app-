@@ -1,8 +1,3 @@
-D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.csproj.AssemblyReference.cache
-D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.AssemblyInfoInputs.cache
-D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.AssemblyInfo.cs
-D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.csproj.CoreCompileInputs.cache
 D:\DOTNET\Book_MVC\Bulky.DataAccess\bin\Debug\net7.0\Bulky.DataAccess.deps.json
 D:\DOTNET\Book_MVC\Bulky.DataAccess\bin\Debug\net7.0\Bulky.DataAccess.runtimeconfig.json
 D:\DOTNET\Book_MVC\Bulky.DataAccess\bin\Debug\net7.0\Bulky.DataAccess.dll
@@ -11,6 +6,11 @@ D:\DOTNET\Book_MVC\Bulky.DataAccess\bin\Debug\net7.0\Bulky.Models.dll
 D:\DOTNET\Book_MVC\Bulky.DataAccess\bin\Debug\net7.0\Bulky.Utility.dll
 D:\DOTNET\Book_MVC\Bulky.DataAccess\bin\Debug\net7.0\Bulky.Models.pdb
 D:\DOTNET\Book_MVC\Bulky.DataAccess\bin\Debug\net7.0\Bulky.Utility.pdb
+D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.csproj.AssemblyReference.cache
+D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.AssemblyInfoInputs.cache
+D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.AssemblyInfo.cs
+D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.csproj.CoreCompileInputs.cache
 D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.csproj.CopyComplete
 D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\Bulky.DataAccess.dll
 D:\DOTNET\Book_MVC\Bulky.DataAccess\obj\Debug\net7.0\refint\Bulky.DataAccess.dll

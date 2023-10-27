@@ -125,38 +125,37 @@ namespace BulkyWeb.Areas.Admin.Controllers
             return View();
         }
 
-        public IActionResult Delete(int? id)
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            Product? productFromDb = _unitOfWork.ProductRepository.Get(x => x.Id == id);
-            if (productFromDb == null)
-            {
-                return NotFound();
-            }
-            return View(productFromDb);
+            var objProductList = _unitOfWork.ProductRepository.GetAll("Category");
+
+            return Json(new { data = objProductList });
         }
 
-        [HttpPost]
-        public IActionResult Delete(Product obj)
+        [HttpDelete]
+        public IActionResult Delete(int? id)
         {
-            if (!string.IsNullOrEmpty(obj.ImageUrl))
+            var productToBeDeleted = _unitOfWork.ProductRepository.Get(x => x.Id == id);
+            if (productToBeDeleted == null)
             {
-                string wwwRootPath = _webHostEnvironment.WebRootPath;
-                // delete the old image
-                var oldImagePath = Path.Combine(wwwRootPath, obj.ImageUrl.TrimStart('\\'));
+                return Json(new { success = false, message = "Error while deleting" });
+            }
 
+            if (!string.IsNullOrEmpty(productToBeDeleted.ImageUrl))
+            {
+                var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, productToBeDeleted.ImageUrl.TrimStart('\\'));
                 if (System.IO.File.Exists(oldImagePath))
                 {
                     System.IO.File.Delete(oldImagePath);
                 }
             }
-            _unitOfWork.ProductRepository.Remove(obj);
+            _unitOfWork.ProductRepository.Remove(productToBeDeleted);
             _unitOfWork.Save();
-            TempData["success"] = "Product deleted successfully";
-            return RedirectToAction("Index");
+
+            return Json(new { success = true, message = "Delete Successful" });
         }
+        #endregion
     }
 }
