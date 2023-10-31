@@ -3031,6 +3031,7 @@
       "Bulky.Utility/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",
+          "Microsoft.AspNetCore.Identity.UI": "7.0.12",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11"
         },
