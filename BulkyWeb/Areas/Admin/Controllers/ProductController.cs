@@ -21,9 +21,11 @@ namespace BulkyWeb.Areas.Admin.Controllers
             _unitOfWork = unitOfwork;
             _webHostEnvironment = webHostEnvironment;
         }
+
+        [HttpGet]
         public IActionResult Index()
         {
-            var objProductList = _unitOfWork.ProductRepository.GetAll("Category");
+            var objProductList = _unitOfWork.ProductRepository.GetAll();
             return View(objProductList);
         }
         public IActionResult Create()
@@ -138,7 +140,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
         }
 
         [HttpDelete]
-        public IActionResult Delete(int? id)
+        public IActionResult Delete(int id)
         {
             var productToBeDeleted = _unitOfWork.ProductRepository.Get(x => x.Id == id);
             if (productToBeDeleted == null)
