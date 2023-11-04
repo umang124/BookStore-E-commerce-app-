@@ -11,7 +11,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
 {
 
     [Area("Admin")]
-    [Authorize(Roles = SD.Role_Admin)]
+    //[Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -25,8 +25,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var objProductList = _unitOfWork.ProductRepository.GetAll();
-            return View(objProductList);
+            return View();
         }
         public IActionResult Create()
         {
@@ -134,7 +133,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var objProductList = _unitOfWork.ProductRepository.GetAll("Category");
+            var objProductList = _unitOfWork.ProductRepository.GetAll(includeProperties:"Category");
 
             return Json(new { data = objProductList });
         }

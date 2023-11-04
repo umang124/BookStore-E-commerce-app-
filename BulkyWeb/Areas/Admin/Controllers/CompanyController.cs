@@ -19,8 +19,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var objCompanyList = _unitOfWork.CompanyRepository.GetAll();
-            return View(objCompanyList);
+            return View();
         }
 
         [HttpGet]
