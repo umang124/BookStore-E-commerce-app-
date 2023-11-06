@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3ddnm9iD74u1Dt6R2lIfyHdN3s4pB5MX/itoVkBd20cRzakDToaQyMpbouBaLTZ0zUS3jKzevZIMvkVIStHP8Q==",
+  "dgSpecHash": "4SAXp4FgwbsqPr+gtnqkMZjrf3VWjQDeaQvcsMkXcizEGjov6np2fndOny1FNQV7OpYUPTpGZjYhrUJwQ61XOg==",
   "success": true,
   "projectFilePath": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\BulkyWeb.csproj",
   "expectedPackageFiles": [
@@ -190,6 +190,7 @@
     "C:\\Users\\dell\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\stripe.net\\43.1.0\\stripe.net.43.1.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
