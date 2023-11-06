@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\images\\cartoon.jpg",
+      "PackagePath": "staticwebassets\\images\\cartoon.jpg"
+    },
+    {
+      "Id": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\images\\cartoon1.jpg",
+      "PackagePath": "staticwebassets\\images\\cartoon1.jpg"
+    },
+    {
       "Id": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\images\\product\\22797f85-57cc-4e1a-96ba-c3237ba75184.jpg",
       "PackagePath": "staticwebassets\\images\\product\\22797f85-57cc-4e1a-96ba-c3237ba75184.jpg"
     },

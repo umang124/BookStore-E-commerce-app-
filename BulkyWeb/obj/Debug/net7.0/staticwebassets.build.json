@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xnBzVdW9NN71CSWWF85BD/Qo/X91jQJVjZk5B/A1HZA=",
+  "Hash": "Zd7tTLf8XJ9A9ktXtJYBu0/RVJ/cNeACHZU06xOnbto=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\images\\cartoon.jpg",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "images/cartoon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cartoon.jpg"
+    },
+    {
+      "Identity": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\images\\cartoon1.jpg",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "images/cartoon1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cartoon1.jpg"
     },
     {
       "Identity": "D:\\DOTNET\\Book_MVC\\BulkyWeb\\wwwroot\\images\\product\\22797f85-57cc-4e1a-96ba-c3237ba75184.jpg",

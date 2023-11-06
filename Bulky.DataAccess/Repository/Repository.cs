@@ -1,4 +1,5 @@
 ﻿using Bulky.DataAccess.Repository.IRepository;
+using Bulky.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -30,7 +31,6 @@ namespace Bulky.DataAccess.Repository
                     query = query.Include(includeProp);
                 }
             }
-
             return query.Where(filter).FirstOrDefault();
         }
 
