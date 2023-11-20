@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Bulky.Utility;
 using Stripe;
+using Bulky.DataAccess.DbInitializer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +41,7 @@ builder.Services.AddSession(options =>
 });
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
@@ -61,6 +63,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
+SeedDatabase();
 app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
@@ -68,6 +71,11 @@ app.MapControllerRoute(
 
 app.Run();
 
-// Publishable key = pk_test_51O9W48IJPJjHtXVYlhGpsvGKjab2QbPIsdDiFpMI0iiz9nKXwXBk5k96KjtXBJKEALWjWFT0kLmeOFPkdG95jQqR00JaeZFGOh
-
-// Secret key = sk_test_51O9W48IJPJjHtXVYrsUSR2lJ4X3VfvpW8Ka0s4g0CvNbPuNdjIqMYyjkcoIM4rP1cf8JRayotG2SMxcK2oIc2EYn001iU14vFs
+void SeedDatabase()
+{
+    using(var scope = app.Services.CreateScope())
+    {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+    }
+}
